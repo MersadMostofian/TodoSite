@@ -1,0 +1,10 @@
+{% extends 'index.htm' %}
+{% block title %}User Info{% endblock %}
+{% block content %}
+<div class="p-1 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+    <p>Username : {{ username }}</p>
+    <p>First Name : {{ firstname }}</p>
+    <p>Last Name : {{ lastname }}</p>
+    <p>Email : {{ email }}</p>
+</div>
+{% endblock %}
